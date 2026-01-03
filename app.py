@@ -45,7 +45,7 @@ if st.button("Evaluate Company"):
         # Display Results
         # ---------------------------
 
-        st.subheader("📊 Evaluation Result")
+        st.subheader(" Evaluation Result")
 
         st.write("### Key Signals")
         st.json(output.external_company_insights.model_dump_json())
